@@ -10,6 +10,8 @@ class Oregon:
         print("Let's start")
         pg.init()
         self.display = pg.display.set_mode((WIDTH, HEIGHT))
+        # add screen title
+        pg.display.set_caption ("The Oregon Trail")
     
 
     def start(self):
